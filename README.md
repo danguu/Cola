@@ -1,4 +1,17 @@
 # Cola by Daniel Ayala - Carlos Cardona 
+# Primer Ejercicio
+1. λ>μ = 165165,000...
+   
+![image](https://github.com/user-attachments/assets/d3a45136-f420-4ccd-9338-6b6bb113a516)
+
+2. λ<μ = 6,46977...x10^(-213)
+
+![WhatsApp Image 2024-10-09 at 7 43 28 PM](https://github.com/user-attachments/assets/182844fe-c039-49e8-88b8-9ac3eb758870)
+
+3. λ=μ = 375374,999...
+
+![WhatsApp Image 2024-10-09 at 7 43 28 PM](https://github.com/user-attachments/assets/b94d1b47-6621-4534-851b-f9f206439c33)
+
 
 # Segundo Ejercicio 
 
@@ -11,7 +24,7 @@
 λ>μ, La simulación muestra una tendencia de crecimiento continuo en el número de clientes en la cola, mientras que la teoría predice que no hay un estado estacionario.
 
 -Si
-λ=μ, La simulación reflejará una acumulación lenta pero constante de clientes, lo que coincide con la predicción teórica de un crecimiento indefinido en un sistema crítico.
+λ=μ, La simulación reflejará una acumulación lenta pero constante de clientes, lo que coincide con la predicción teórica de un crecimiento indefinido.
 
 # Tercer Ejercicio - Análisis de los Resultados
 
