@@ -26,7 +26,7 @@
 -Si
 λ=μ, El sistema está en una condición crítica y no se estabiliza; sin embargo, teóricamente, podemos observar una acumulación lenta de clientes en la cola.
 
-# Tercer Ejercicio - Análisis de los Resultados
+# Tercer Ejercicio - Análisis código mesa
 
 ## Valores Iniciales:
 
@@ -35,6 +35,7 @@ En el primer paso (índice 0), Queue Length es 0 y Clients in System es 1. Esto 
 ## Crecimiento de la Cola:
 
 A medida que avanza la simulación (índices 1 a 4), puedes observar un aumento en la longitud de la cola. Esto indica que la tasa de llegada de nuevos clientes (λ) es mayor que la tasa de servicio (μ), lo que resulta en una acumulación de clientes en la cola.
+
 -Longitud de la Cola Máxima:
 
 En varios pasos (como en el índice 10), Queue Length alcanza 10, que es el máximo que se ha establecido (K = 10). Esto significa que la cola está completamente ocupada y no se aceptan más clientes hasta que algunos sean atendidos y salgan del sistema.
@@ -43,11 +44,10 @@ En varios pasos (como en el índice 10), Queue Length alcanza 10, que es el máx
 
 La columna Clients in System muestra cómo cambia el número total de clientes en el sistema. Cuando la longitud de la cola alcanza su límite, el número de clientes en el sistema se mantiene constante hasta que algunos clientes son atendidos.
 
-## Comportamiento Observado
-λ > μ:
+## Paso de Simulación:
 
-Si la tasa de llegada (λ) es mayor que la tasa de servicio (μ), como parece ser el caso aquí, se puede esperar que la cola se llene y se mantenga llena, ya que los nuevos clientes llegan más rápido de lo que se pueden atender. Este comportamiento se puede observar en la longitud de la cola y en el número de clientes en el sistema.
+En cada paso (tick), el modelo decide si un nuevo cliente llega basándose en una probabilidad relacionada con λ, y luego, el servidor atiende a los clientes en la cola.
 
-## Cola Estable:
+## Recolector de datos:
 
-Una vez que la cola se llena, el sistema tiende a estabilizarse. Los valores en la columna Clients in System se mantienen en un rango, indicando que se está alcanzando un equilibrio donde la llegada de nuevos clientes es igual a la salida de clientes atendidos, a pesar de que la cola ya esté en su capacidad máxima.
+El código utiliza DataCollector para medir la longitud de la cola y el número total de clientes en el sistema en cada paso de la simulación.
