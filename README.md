@@ -18,13 +18,13 @@
 ## COMPARACIÓN:
 
 -Si
-λ<μ, Los valores simulados tienden a aproximarse a los resultados teóricos una vez que el sistema alcanza un estado estacionario.
+λ<μ, Podemos calcular los valores teóricos. Aquí el sistema es estable y deberíamos observar resultados consistentes entre la simulación y la teoría.
 
 -Si
-λ>μ, La simulación muestra una tendencia de crecimiento continuo en el número de clientes en la cola, mientras que la teoría predice que no hay un estado estacionario.
+λ>μ, El sistema no puede estabilizarse, lo que significa que los tiempos y las colas crecerán indefinidamente. Aún así, podemos analizar el comportamiento teórico inicial, aunque en este caso la teoría nos dice que el sistema es inestable.
 
 -Si
-λ=μ, La simulación reflejará una acumulación lenta pero constante de clientes, lo que coincide con la predicción teórica de un crecimiento indefinido.
+λ=μ, El sistema está en una condición crítica y no se estabiliza; sin embargo, teóricamente, podemos observar una acumulación lenta de clientes en la cola.
 
 # Tercer Ejercicio - Análisis de los Resultados
 
