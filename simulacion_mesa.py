@@ -4,8 +4,8 @@ from mesa.datacollection import DataCollector
 import random
 
 # Parámetros de llegada (lambda) y servicio (mu)
-LAMBDA = 0.9  # Tasa de llegada
-MU = 1.4      # Tasa de servicio
+LAMBDA = 1  # Tasa de llegada - Se cambia tambien a 0.20 y 2
+MU = 0.67     # Tasa de servicio - Se cambia tambien a 0.33 y 0.50 
 K = 10        # Capacidad máxima de la cola (Si K = INF, no hay límite)
 
 class Cliente(Agent):
