@@ -6,11 +6,11 @@
 
 2. λ<μ = 6,46977...x10^(-213)
 
-![WhatsApp Image 2024-10-09 at 7 43 28 PM](https://github.com/user-attachments/assets/182844fe-c039-49e8-88b8-9ac3eb758870)
+![WhatsApp Image 2024-10-09 at 7 43 28 PM (1)](https://github.com/user-attachments/assets/c01fc37e-d07a-4cd2-99a9-c8f8724cb481)
 
 3. λ=μ = 375374,999...
 
-![WhatsApp Image 2024-10-09 at 7 43 28 PM](https://github.com/user-attachments/assets/b94d1b47-6621-4534-851b-f9f206439c33)
+![WhatsApp Image 2024-10-09 at 7 43 28 PM (2)](https://github.com/user-attachments/assets/8b4e6e5f-f3d6-4737-b359-62298013aca7)
 
 
 # Segundo Ejercicio 
