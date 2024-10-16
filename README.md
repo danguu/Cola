@@ -51,3 +51,7 @@ En cada paso (tick), el modelo decide si un nuevo cliente llega basándose en un
 ## Recolector de datos:
 
 El código utiliza DataCollector para medir la longitud de la cola y el número total de clientes en el sistema en cada paso de la simulación.
+
+# Cuarto Ejercicio
+
+El codigo se encuentra arriba es el cola_sim.cpp
