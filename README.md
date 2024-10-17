@@ -17,14 +17,7 @@
 
 ## COMPARACIÓN:
 
--Si
-λ<μ, Podemos calcular los valores teóricos. Aquí el sistema es estable y deberíamos observar resultados consistentes entre la simulación y la teoría.
-
--Si
-λ>μ, El sistema no puede estabilizarse, lo que significa que los tiempos y las colas crecerán indefinidamente. Aún así, podemos analizar el comportamiento teórico inicial, aunque en este caso la teoría nos dice que el sistema es inestable.
-
--Si
-λ=μ, El sistema está en una condición crítica y no se estabiliza; sin embargo, teóricamente, podemos observar una acumulación lenta de clientes en la cola.
+En el archivo comparacion punto se muetra la comparación 
 
 # Tercer Ejercicio - Análisis código mesa
 
