@@ -1,4 +1,4 @@
-# Cola by Daniel Ayala - Carlos Cardona 
+# Cola by Daniel Ayala - Carlos Cardona - Julian Briñez
 # Primer Ejercicio
 1. λ>μ = 165165,000...
    
